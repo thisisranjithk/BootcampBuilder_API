@@ -70,7 +70,7 @@ app.use("/api/v1/reviews", reviews);
 //error handler middleware
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3500;
 
 app.listen(PORT, () => {
   console.log(
