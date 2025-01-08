@@ -1,2 +1,8 @@
-node_modules
+# Node modules
+node_modules/
+
+# Testig JSON data
 _data
+
+# Environment variables
+/config/config.env
